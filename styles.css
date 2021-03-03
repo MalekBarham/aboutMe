@@ -1,9 +1,18 @@
 
 
-body {background-color: coral;}
+body {
+    background-color: lightblue;
+  }
 
 h1 { text-align: center;
      }
-
+ li {
+          list-style-type: circle;
+      }
+      
+      ul {
+          list-style-type: square;
+      }
      
 
+   
