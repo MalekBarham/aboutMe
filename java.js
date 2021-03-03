@@ -1,22 +1,29 @@
 'use strict'
 
-let userName=prompt("can you tell us about your name ?");
-alert( "welcome " + userName);
-let favouritecolor=parseInt(prompt(" is my favourite  color is red? \n (Yes-no)"));
-let meal=parseInt(prompt("Is Mansaf my favorite meal? \n (Yes-no)"));
-let answer2=parseInt(prompt(" Did i study accounting  ?  \n (Yes-no) "));
-let answer3=parseInt(prompt(" is my favorit color is red ?  \n (Yes-no)"));
-let q5=parseInt(prompt(" did you like my website? \n (Yes-no)"));
-let n1=parseInt(prompt("can you guess my name ? \n  [ Malek-Mohummad-Yahya-samer  ]"));
+let userName=prompt('can you tell us about your name ?');
+alert('welcome to our website ' + userName);
+while (!userName) {
+    userName=prompt('you cant leave this empty ');
+    
+}
+
+
+
+let favouriteColor=prompt(' is my favourite  color is red? \n (Yes-no)');
+let Meal=prompt('Is Mansaf my favorite meal? \n (Yes-no)');
+let Answer2=prompt(' Did i study accounting  ?  \n (Yes-no)');
+let Answer3=prompt('is my favorit color is red ?  \n (Yes-no)');
+let Answer4=prompt(' did you like my website? \n (Yes-no) ' );
+let n1=prompt('can you guess my name ? \n  [ Malek-Mohummad-Yahya-samer  ]');
 
 
 
 
 
-if (favouritecolor.toUpperCase()=="YES"     || favouritecolor.toLowerCase()=="Y"   ) {
+if (favouriteColor.toUpperCase()=='YES'     || favouriteColor.toUpperCase()=='Y'   ) {
     console.log("Thats Correct answer");
 }
-else if (favouritecolor.toLowerCase()=="no" || favouritecolor.toLowerCase()=="n") {
+else if (favouriteColor.toLowerCase()=='no' || favouriteColor.toLowerCase()=='n') {
     console.log("you don't get the answer correctly");
 }
 else {
@@ -24,35 +31,35 @@ else {
 }
 
 
-if (meal.toUpperCase() =="YES"     || meal.toLowerCase()=="Y"   ) {
+if (Meal.toUpperCase()=='YES'     || Meal.toLowerCase()=='Y'   ) {
     console.log("thats correct answer");
 }
-else if (meal.toLowerCase()=="no"  || meal.toLowerCase()=="n"   ) {
+else if (Meal.toLowerCase()=='no'  || Meal.toLowerCase()=='n'   ) {
     console.log("you don't get the answer correctly");
 } else {
     alert("wrong input, please try again");
 }
 
-if (answer2.toUpperCase()=="YES" || answer2.toUpperCase()=="Y"){
+if (Answer2.toUpperCase()=='YES' || Answer2.toUpperCase()=='Y'){
 console.log("Thats Correct answer");
-} else if (answer2.toLowerCase()=="no" ||answer2.toLowerCase()=="n") {  
+} else if (Answer2.toLowerCase()=="no" || Answer2.toLowerCase()=="n") {  
     console.log("you don't get the answer correctly");
 } else { 
 alert("wrong input,please try again");
 }
 
-if (answer3.toUpperCase()=="YES" ||  answer3.toUpperCase()=="Y") {
+if (Answer3.toUpperCase()=='YES' ||  Answer3.toUpperCase()=='Y') {
     console.log ("Thats correct answer"); 
-} else if (answer3.toLowerCase()=="no"  || answer3.toLowerCase()=="n") {
+} else if (Answer3.toLowerCase()=="no"  || Answer3.toLowerCase()=="n") {
     console.log("you don't get the answer correctly");
 } else {
     alert("Wrong input,please try again");
 }
 
-if (q5.toUpperCase()=="YES" || q5.toUpperCase()=="Y" ) {
+if (Answer4.toUpperCase()=='YES' || Answer4.toUpperCase()=='Y' ) {
     console.log("Thats Correct answer");
 }
-else if (q5.toLowerCase()=="no" || q5.toLowerCase()=="n") {
+else if (Answer4.toLowerCase()=='no' || Answer4.toLowerCase()=='n') {
     console.log("you don't get the answer correctly");
 }
 else {
@@ -67,7 +74,7 @@ do {
 
     if (age===26) {
         console.log("yor answer is correct ");
-        alert("your answer is crrect");
+        alert("your answer is correct");
         a = 1;
     } 
      else if (age <26) {
@@ -88,17 +95,25 @@ do {
 } while (a === 0);
 
 
-switch (n1) {
-    case "yahya":
-        console.log("this is wrong name");
-        break;
-     case "mouhmmed":
-     console.log("this is wrong name");
-     break;
-     case "samer":
-         console.log("please try again");
-         break;
-    default:
-    console.log("this is correct answer");
-        break;
-} 
+
+// let cars=['bmw','Hyundai i20','Maruti Swift','Hyundai Creta']
+// guesses=0;
+
+// while { gusses <6 }
+// let favCar =prompt('can you gusses my favourit car ?');
+// for ( let i = 0 ; i < favCar.length ; i++ ) {
+
+//     if ( favCar ===[i]; cars[i])
+//     alert(' yes you gusses it ');
+//     guesses =6;
+//     userscour +=1;
+//     break();
+// }
+
+// if ( guesses!== 6 ) {
+//  fav car =prompt('please try again');
+
+// }
+
+// guesses++;
+// }
