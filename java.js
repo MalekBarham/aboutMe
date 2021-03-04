@@ -14,7 +14,7 @@ let Meal=prompt('Is Mansaf my favorite meal? \n (Yes-no)');
 let Answer2=prompt(' Did i study accounting  ?  \n (Yes-no)');
 let Answer3=prompt('is my favorit color is red ?  \n (Yes-no)');
 let Answer4=prompt(' did you like my website? \n (Yes-no) ' );
-let n1=prompt('can you guess my name ? \n  [ Malek-Mohummad-Yahya-samer  ]');
+
 
 
 
@@ -96,24 +96,5 @@ do {
 
 
 
-// let cars=['bmw','Hyundai i20','Maruti Swift','Hyundai Creta']
-// guesses=0;
 
-// while { gusses <6 }
-// let favCar =prompt('can you gusses my favourit car ?');
-// for ( let i = 0 ; i < favCar.length ; i++ ) {
 
-//     if ( favCar ===[i]; cars[i])
-//     alert(' yes you gusses it ');
-//     guesses =6;
-//     userscour +=1;
-//     break();
-// }
-
-// if ( guesses!== 6 ) {
-//  fav car =prompt('please try again');
-
-// }
-
-// guesses++;
-// }
