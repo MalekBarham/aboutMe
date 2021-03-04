@@ -7,23 +7,25 @@ while (!userName) {
     
 }
 
-
-
-let favouriteColor=prompt(' is my favourite  color is red? \n (Yes-no)');
-let Meal=prompt('Is Mansaf my favorite meal? \n (Yes-no)');
-let Answer2=prompt(' Did i study accounting  ?  \n (Yes-no)');
-let Answer3=prompt('is my favorit color is red ?  \n (Yes-no)');
-let Answer4=prompt(' did you like my website? \n (Yes-no) ' );
+let scoure = 0;
 
 
 
 
 
 
-if (favouriteColor.toUpperCase()=='YES'     || favouriteColor.toUpperCase()=='Y'   ) {
+
+
+
+
+
+let favColor=prompt(' is my favourite  color is black? \n (Yes-no)');
+if (favColor.toUpperCase()=='YES'     || favColor.toUpperCase()=='Y'   ) {
     console.log("Thats Correct answer");
+    alert('thats correct answer');
+    scoure++
 }
-else if (favouriteColor.toLowerCase()=='no' || favouriteColor.toLowerCase()=='n') {
+else if (favColor.toLowerCase()=='no' || favColor.toLowerCase()=='n') {
     console.log("you don't get the answer correctly");
 }
 else {
@@ -31,40 +33,70 @@ else {
 }
 
 
-if (Meal.toUpperCase()=='YES'     || Meal.toLowerCase()=='Y'   ) {
+
+let favoriteMeal=prompt('Is Mansaf my favorite meal? \n (Yes-no)');
+if (favoriteMeal.toUpperCase()=='YES'     || favoriteMeal.toLowerCase()=='Y'   ) {
     console.log("thats correct answer");
+    alert('thats correct answer');
+    scoure++
 }
-else if (Meal.toLowerCase()=='no'  || Meal.toLowerCase()=='n'   ) {
+else if (favoriteMeal.toLowerCase()=='no'  || favoriteMeal.toLowerCase()=='n'   ) {
     console.log("you don't get the answer correctly");
+        alert('thats correct answer');
 } else {
     alert("wrong input, please try again");
 }
 
-if (Answer2.toUpperCase()=='YES' || Answer2.toUpperCase()=='Y'){
+
+let myStudy=prompt(' Did i study accounting  ?  \n (Yes-no)');
+
+if (myStudy.toUpperCase()=='YES' || myStudy.toUpperCase()=='Y'){
 console.log("Thats Correct answer");
-} else if (Answer2.toLowerCase()=="no" || Answer2.toLowerCase()=="n") {  
+alert('alert your answer is correct');
+     scoure++
+
+} else if (myStudy.toLowerCase()=="no" || myStudy.toLowerCase()=="n") {  
     console.log("you don't get the answer correctly");
+    alert('your answer is not correct ');
 } else { 
 alert("wrong input,please try again");
 }
 
-if (Answer3.toUpperCase()=='YES' ||  Answer3.toUpperCase()=='Y') {
+
+
+
+let favouriteColor=prompt('is my favorit color is black ?  \n (Yes-no)');
+
+if (favouriteColor.toUpperCase()=='YES' ||  favouriteColor.toUpperCase()=='Y') {
     console.log ("Thats correct answer"); 
-} else if (Answer3.toLowerCase()=="no"  || Answer3.toLowerCase()=="n") {
+    alert('your answer is correct ');
+    scoure++
+
+} else if (favouriteColor.toLowerCase()=='no'  || favouriteColor.toLowerCase()=='n') {
     console.log("you don't get the answer correctly");
+    alert('your answer is not correct');
 } else {
     alert("Wrong input,please try again");
+    
 }
 
-if (Answer4.toUpperCase()=='YES' || Answer4.toUpperCase()=='Y' ) {
+
+let likeMywebsite=prompt(' did you like my website? \n (Yes-no) ' );
+
+if (likeMywebsite.toUpperCase()=='YES' || likeMywebsite.toUpperCase()=='Y' ) {
     console.log("Thats Correct answer");
+    alert(" yes you should be !!!  ");
+    scoure++
 }
-else if (Answer4.toLowerCase()=='no' || Answer4.toLowerCase()=='n') {
+else if (likeMywebsite.toLowerCase()=='no' || likeMywebsite.toLowerCase()=='n') {
     console.log("you don't get the answer correctly");
+    alert(" wrong input,please try again ");
 }
 else {
     alert("wrong input, please try agin");
 }
+
+
 let age;
 let counter = 0;
 let a = 0;
@@ -94,7 +126,25 @@ do {
     }
 } while (a === 0);
 
+let City= ['Amman' , 'Damascus' , ' cairo ' , ' Aldoha' ]
+let i=0
 
+while (i < 6) {
+    let favouriteCity=prompt('can you gusses my Favourite City?');
+    if (favouriteCity === City[0]  || favouriteCity === city [1] || City === favouriteCity[2] || favouriteCity===City[3] ) {
+        alert('you gusses it right ');
+        scoure = scoure+1
+        break;
+    }
+     else
+    { alert('thats is wrong !! try again ');
+    i++
+}  
+if ( i===6 ) {
+    alert(' you are out of try !! sorry ');
+}
+  for ( i = 0 ; i < City.length ; i++) {
 
-
-
+    alert(city.length); }
+}
+alert('your scoure is ' + scoure );
