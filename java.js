@@ -81,16 +81,16 @@ if (favouritDrink.toUpperCase()=='YES' ||  favouritDrink.toUpperCase()=='Y') {
 }
 
 
-let likeMywebsite=prompt(' did you like my website? \n (Yes-no) ' );
+let favourtCar=prompt(' do you think that bugatti is my favourt car \n (Yes-no) ' );
 
-if (likeMywebsite.toUpperCase()=='YES' || likeMywebsite.toUpperCase()=='Y' ) {
+if (favourtCar.toUpperCase()=='YES' || favourtCar.toUpperCase()=='Y' ) {
     console.log("Thats Correct answer");
-    alert(" yes you should be !!!  ");
+    alert(" yes thats right bugatti is my favourt car   ");
     scoure++;
 }
-else if (likeMywebsite.toLowerCase()=='no' || likeMywebsite.toLowerCase()=='n') {
+else if (favourtCar.toLowerCase()=='no' || favourtCar.toLowerCase()=='n') {
     console.log("you don't get the answer correctly");
-    alert(" wrong input,please try again ");
+    alert(" indeed bugatti is my best car   ");
 }
 else {
     alert("wrong input, please try agin");
@@ -152,10 +152,13 @@ while (i < 6) {
 if ( i===6 ) {
     alert(' you are out of try !! sorry ');
 
-  for ( im = 0 ; i < City.length ; im++) {
+  for ( im = 0 ; im < City.length ; im++) {
 
-    alert(city[im]); }
-}}
+  
+  alert(city[im]); }
+}
+}
+alert('Correct answers is , black , mansaf , accounting , coffe , age 26 , bugatti , ')
 alert( ' your scoure is '   +  scoure  +     ' out of 7 ' );
 
 
