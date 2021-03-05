@@ -126,12 +126,20 @@ do {
     }
 } while (a === 0);
 
-let City= ['Amman' , 'Damascus' , ' cairo ' , ' Aldoha' ]
-let i=0
+
+
+
+
+
+
+
+let City= ['amman' , 'damascus' , ' cairo ' , ' Aaldoha' ];
+let i=0;
 
 while (i < 6) {
     let favouriteCity=prompt('can you gusses my Favourite City?');
-    if (favouriteCity === City[0]  || favouriteCity === city [1] || City === favouriteCity[2] || favouriteCity===City[3] ) {
+    if (favouriteCity.toLowerCase()=== City[0]  || favouriteCity.toLowerCase()=== City [1] || favouriteCity.toLowerCase()=== City[2]|| favouriteCity.toLowerCase()===City[3] )
+     {
         alert('you gusses it right ');
         scoure = scoure+1
         break;
@@ -142,9 +150,9 @@ while (i < 6) {
 }  
 if ( i===6 ) {
     alert(' you are out of try !! sorry ');
-}
+
   for ( i = 0 ; i < City.length ; i++) {
 
     alert(city.length); }
-}
+}}
 alert('your scoure is ' + scoure );
