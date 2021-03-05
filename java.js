@@ -23,7 +23,7 @@ let favColor=prompt(' is my favourite  color is black? \n (Yes-no)');
 if (favColor.toUpperCase()=='YES'     || favColor.toUpperCase()=='Y'   ) {
     console.log("Thats Correct answer");
     alert('thats correct answer');
-    scoure++
+    scoure++;
 }
 else if (favColor.toLowerCase()=='no' || favColor.toLowerCase()=='n') {
     console.log("you don't get the answer correctly");
@@ -38,7 +38,7 @@ let favoriteMeal=prompt('Is Mansaf my favorite meal? \n (Yes-no)');
 if (favoriteMeal.toUpperCase()=='YES'     || favoriteMeal.toLowerCase()=='Y'   ) {
     console.log("thats correct answer");
     alert('thats correct answer');
-    scoure++
+    scoure++;
 }
 else if (favoriteMeal.toLowerCase()=='no'  || favoriteMeal.toLowerCase()=='n'   ) {
     console.log("you don't get the answer correctly");
@@ -53,7 +53,7 @@ let myStudy=prompt(' Did i study accounting  ?  \n (Yes-no)');
 if (myStudy.toUpperCase()=='YES' || myStudy.toUpperCase()=='Y'){
 console.log("Thats Correct answer");
 alert('alert your answer is correct');
-     scoure++
+     scoure++;
 
 } else if (myStudy.toLowerCase()=="no" || myStudy.toLowerCase()=="n") {  
     console.log("you don't get the answer correctly");
@@ -65,14 +65,14 @@ alert("wrong input,please try again");
 
 
 
-let favouriteColor=prompt('is my favorit color is black ?  \n (Yes-no)');
+let favouritDrink=prompt('is my drink favouritDrink is coffe ?  \n (Yes-no)');
 
-if (favouriteColor.toUpperCase()=='YES' ||  favouriteColor.toUpperCase()=='Y') {
+if (favouritDrink.toUpperCase()=='YES' ||  favouritDrink.toUpperCase()=='Y') {
     console.log ("Thats correct answer"); 
     alert('your answer is correct ');
-    scoure++
+    scoure++;
 
-} else if (favouriteColor.toLowerCase()=='no'  || favouriteColor.toLowerCase()=='n') {
+} else if (favouritDrink.toLowerCase()=='no'  || favouritDrink.toLowerCase()=='n') {
     console.log("you don't get the answer correctly");
     alert('your answer is not correct');
 } else {
@@ -86,7 +86,7 @@ let likeMywebsite=prompt(' did you like my website? \n (Yes-no) ' );
 if (likeMywebsite.toUpperCase()=='YES' || likeMywebsite.toUpperCase()=='Y' ) {
     console.log("Thats Correct answer");
     alert(" yes you should be !!!  ");
-    scoure++
+    scoure++;
 }
 else if (likeMywebsite.toLowerCase()=='no' || likeMywebsite.toLowerCase()=='n') {
     console.log("you don't get the answer correctly");
@@ -151,8 +151,10 @@ while (i < 6) {
 if ( i===6 ) {
     alert(' you are out of try !! sorry ');
 
-  for ( i = 0 ; i < City.length ; i++) {
+  for ( im = 0 ; i < City.length ; im++) {
 
-    alert(city.length); }
+    alert(city[im]); }
 }}
 alert('your scoure is ' + scoure );
+
+
