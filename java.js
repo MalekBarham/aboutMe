@@ -134,11 +134,11 @@ do {
 
 
 
-let City= ['amman' , 'damascus' , ' cairo ' , ' Aaldoha' ];
+let City= ['amman' , 'damascus' , ' cairo ' , ' Aldoha' ];
 let i=0;
 
 while (i < 6) {
-    let favouriteCity=prompt('can you gusses my Favourite City?');
+    let favouriteCity=prompt('can you gusses my Favourite City? \n amman -damascus - cairo - aldoha' );
     if (favouriteCity.toLowerCase()=== City[0]  || favouriteCity.toLowerCase()=== City [1] || favouriteCity.toLowerCase()=== City[2]|| favouriteCity.toLowerCase()===City[3] )
      {
         alert('you gusses it right ');
@@ -156,6 +156,6 @@ if ( i===6 ) {
 
     alert(city[im]); }
 }}
-alert('your scoure is ' + scoure );
+alert( ' your scoure is '   +  scoure  +     ' out of 7 ' );
 
 
