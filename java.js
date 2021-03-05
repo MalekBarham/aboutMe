@@ -65,7 +65,7 @@ alert("wrong input,please try again");
 
 
 
-let favouritDrink=prompt('is my drink favouritDrink is coffe ?  \n (Yes-no)');
+let favouritDrink=prompt('is my drink favourit Drink is coffe ?  \n (Yes-no)');
 
 if (favouritDrink.toUpperCase()=='YES' ||  favouritDrink.toUpperCase()=='Y') {
     console.log ("Thats correct answer"); 
@@ -107,6 +107,7 @@ do {
     if (age===26) {
         console.log("yor answer is correct ");
         alert("your answer is correct");
+        scoure++;
         a = 1;
     } 
      else if (age <26) {
