@@ -93,7 +93,7 @@ else if (favourtCar.toLowerCase()=='no' || favourtCar.toLowerCase()=='n') {
     alert(" indeed bugatti is my best car   ");
 }
 else {
-    alert("wrong input, please try agin");
+    alert("wrong input, please try again");
 }
 
 
@@ -134,12 +134,12 @@ do {
 
 
 
-let City= ['amman' , 'damascus' , ' cairo ' , ' Aldoha' ];
+let city= ['amman' , 'damascus' , ' cairo ' , ' Aldoha' ];
 let i=0;
 
 while (i < 6) {
-    let favouriteCity=prompt('can you gusses my Favourite City? \n amman -damascus - cairo - aldoha' );
-    if (favouriteCity.toLowerCase()=== City[0]  || favouriteCity.toLowerCase()=== City [1] || favouriteCity.toLowerCase()=== City[2]|| favouriteCity.toLowerCase()===City[3] )
+    let favouriteCity=prompt('can you gusses my Favourite City?  ' );
+    if (favouriteCity.toLowerCase()=== city[0]  || favouriteCity.toLowerCase()=== city[1] || favouriteCity.toLowerCase()=== city[2]|| favouriteCity.toLowerCase()===city[3] )
      {
         alert('you gusses it right ');
         scoure = scoure+1
@@ -152,13 +152,15 @@ while (i < 6) {
 if ( i===6 ) {
     alert(' you are out of try !! sorry ');
 
-  for ( im = 0 ; im < City.length ; im++) {
+}
+}
+for (  let j = 0 ; j < city.length ; j++) {
 
-  
-  alert(city[im]); }
-}
-}
+
+alert(city[j]); }
 alert('Correct answers is , black , mansaf , accounting , coffe , age 26 , bugatti , ')
 alert( ' your scoure is '   +  scoure  +     ' out of 7 ' );
+
+
 
 
