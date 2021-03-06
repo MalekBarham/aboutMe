@@ -143,6 +143,7 @@ while (i < 6) {
      {
         alert('you gusses it right ');
         scoure = scoure+1
+        
         break;
     }
      else
@@ -155,7 +156,6 @@ if ( i===6 ) {
 }
 }
 for (  let j = 0 ; j < city.length ; j++) {
-
 
 alert(city[j]); }
 alert('Correct answers is , black , mansaf , accounting , coffe , age 26 , bugatti , ')
